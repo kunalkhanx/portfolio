@@ -1,8 +1,5 @@
 # PENDING
 - Design and add logo
-- Define colors
-
-- Design Cover
 - Design About Me
 - Design Resume
 - Design Skills
@@ -15,5 +12,7 @@
 
 
 # COMPLETED
+- Design Cover
+- Define colors
 - Design Navbar
 - Install font
