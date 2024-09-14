@@ -8,6 +8,8 @@
 - Design Footer
 - Make homepage responsive
 - Make fontawsome local
+- Fix Navbar Scroll behaviour
+- Update content
 
 
 # COMPLETED
