@@ -1,7 +1,4 @@
 # PENDING
-- Design About Me
-- Design Resume
-- Design Skills
 - Design Portfolio
 - Design CTA
 - Design Conact Me
@@ -13,6 +10,9 @@
 
 
 # COMPLETED
+- Design Skills
+- Design Resume
+- Design About Me
 - Design and add logo
 - Design Cover
 - Define colors
