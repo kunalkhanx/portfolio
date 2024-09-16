@@ -9,7 +9,9 @@
 - Update content
 
 
+
 # COMPLETED
+- Design download resume button
 - Design Skills
 - Design Resume
 - Design About Me
