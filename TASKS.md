@@ -1,6 +1,4 @@
 # PENDING
-- Design Portfolio
-- Design CTA
 - Design Conact Me
 - Design Footer
 - Make homepage responsive
@@ -11,6 +9,8 @@
 
 
 # COMPLETED
+- Design CTA
+- Design Portfolio
 - Design download resume button
 - Design Skills
 - Design Resume
