@@ -1,14 +1,12 @@
 # PENDING
-- Design Conact Me
 - Design Footer
 - Make homepage responsive
 - Make fontawsome local
 - Fix Navbar Scroll behaviour
 - Update content
 
-
-
 # COMPLETED
+- Design Conact Me
 - Design CTA
 - Design Portfolio
 - Design download resume button
