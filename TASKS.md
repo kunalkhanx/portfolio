@@ -1,10 +1,16 @@
 # PENDING
 - Make homepage responsive
 - Make fontawsome local
-- Fix Navbar Scroll behaviour
 - Update content
+- Add animated arrow down cover
+- Design & active navigation menu
+- Add preloader
+- Add text animation on cover
+- Design What I Do section
+- Add scroll animation
 
 # COMPLETED
+- Fix Navbar Scroll behaviour
 - Design Footer
 - Design Conact Me
 - Design CTA
