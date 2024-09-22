@@ -612,14 +612,6 @@ video {
   top: 0px;
 }
 
-.z-\[4\] {
-  z-index: 4;
-}
-
-.z-\[449\] {
-  z-index: 449;
-}
-
 .z-\[499\] {
   z-index: 499;
 }
@@ -802,6 +794,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-28 {
+  gap: 7rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -828,10 +824,6 @@ video {
   overflow: hidden;
 }
 
-.text-wrap {
-  text-wrap: wrap;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -844,8 +836,8 @@ video {
   border-width: 16px;
 }
 
-.border {
-  border-width: 1px;
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-b-2 {
@@ -860,10 +852,6 @@ video {
   border-left-width: 2px;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
 .border-acecnt {
   --tw-border-opacity: 1;
   border-color: rgb(17 20 24 / var(--tw-border-opacity));
@@ -874,16 +862,12 @@ video {
   border-color: rgb(245 223 78 / var(--tw-border-opacity));
 }
 
-.border-transparent {
-  border-color: transparent;
+.border-opacity-0 {
+  --tw-border-opacity: 0;
 }
 
 .border-opacity-20 {
   --tw-border-opacity: 0.2;
-}
-
-.border-opacity-0 {
-  --tw-border-opacity: 0;
 }
 
 .bg-acecnt {
@@ -931,6 +915,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -1025,6 +1014,11 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1106,14 +1100,14 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(245 223 78 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1228,14 +1222,6 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.\[\&\.scrolled\]\:border-opacity-30.scrolled {
-  --tw-border-opacity: 0.3;
-}
-
-.\[\&\.scrolled\]\:border-opacity-20.scrolled {
-  --tw-border-opacity: 0.2;
 }
 
 .\[\&\.scrolled\]\:border-opacity-10.scrolled {

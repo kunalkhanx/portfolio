@@ -6,10 +6,11 @@
 - Design & active navigation menu
 - Add preloader
 - Add text animation on cover
-- Design What I Do section
 - Add scroll animation
+- Set color of text selection
 
 # COMPLETED
+- Design Services section
 - Fix Navbar Scroll behaviour
 - Design Footer
 - Design Conact Me
