@@ -1,11 +1,11 @@
 # PENDING
-- Design Footer
 - Make homepage responsive
 - Make fontawsome local
 - Fix Navbar Scroll behaviour
 - Update content
 
 # COMPLETED
+- Design Footer
 - Design Conact Me
 - Design CTA
 - Design Portfolio
