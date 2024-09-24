@@ -616,6 +616,10 @@ video {
   z-index: 499;
 }
 
+.z-\[500\] {
+  z-index: 500;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -724,6 +728,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-md {
@@ -1226,6 +1234,32 @@ body {
   }
 }
 
+.loader {
+  width: 60px;
+  aspect-ratio: 4;
+  --_g: no-repeat radial-gradient(circle closest-side,#111418 90%,#0000);
+  background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+  background-size: calc(100%/3) 100%;
+  animation: l7 1s infinite linear;
+}
+
+@keyframes l7 {
+  33%{
+    background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%
+  }
+
+  50%{
+    background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%
+  }
+
+  66%{
+    background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%
+  }
+}
+
 .hover\:bg-acecnt:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(17 20 24 / var(--tw-bg-opacity));
@@ -1243,6 +1277,10 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.\[\&\.loaded\]\:hidden.loaded {
+  display: none;
 }
 
 .\[\&\.scrolled\]\:border-opacity-10.scrolled {

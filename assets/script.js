@@ -62,8 +62,14 @@ const textArray = [
       textIndex = (textIndex + 1) % textArray.length; // Loop through the text array
       setTimeout(typeTextLoop, typingSpeed);
     }
-  }
+  } 
   
-  // Start the typing loop
-  typeTextLoop();
-  
+
+
+window.onload = function() {
+    // Add the class .hide to the preLoader element
+    setTimeout(function(){
+        document.getElementById('preLoader').classList.add('loaded');
+        typeTextLoop();
+    }, 2000)
+};
