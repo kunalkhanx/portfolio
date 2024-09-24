@@ -42,3 +42,13 @@ body {
     font-family: Poppins, sans-serif;
     @apply text-acecnt;
 }
+
+.blink{
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

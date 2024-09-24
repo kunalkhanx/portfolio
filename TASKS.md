@@ -2,7 +2,6 @@
 - Make homepage responsive
 - Make fontawsome local
 - Update content
-- Add animated arrow down cover
 - Design & active navigation menu
 - Add preloader
 - Add text animation on cover
@@ -10,6 +9,7 @@
 - Set color of text selection
 
 # COMPLETED
+- Add animated arrow down on cover
 - Design Services section
 - Fix Navbar Scroll behaviour
 - Design Footer
