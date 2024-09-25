@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/style.css --watch",
+    "compile": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
     "serve": "php -S localhost:3000"
   },
   "keywords": [],
