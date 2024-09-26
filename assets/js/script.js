@@ -71,5 +71,7 @@ window.onload = function() {
     setTimeout(function(){
         document.getElementById('preLoader').classList.add('loaded');
         typeTextLoop();
+        AOS.init();
     }, 2000)
 };
+

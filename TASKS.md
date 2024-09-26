@@ -4,10 +4,11 @@
 - Update content
 - Design & active navigation menu
 - Add animated arrow down on cover
-- Add scroll animation
 - Set color of text selection
+- Add other animations on homepage
 
 # COMPLETED
+- Add scroll animation
 - Add preloader
 - Add text animation on cover
 - Design Services section
