@@ -5,9 +5,9 @@
 - Design & active navigation menu
 - Add animated arrow down on cover
 - Set color of text selection
-- Add other animations on homepage
 
 # COMPLETED
+- Add other animations on homepage
 - Add scroll animation
 - Add preloader
 - Add text animation on cover

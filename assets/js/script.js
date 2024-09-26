@@ -66,12 +66,46 @@ const textArray = [
   
 
 
-window.onload = function() {
-    // Add the class .hide to the preLoader element
-    setTimeout(function(){
-        document.getElementById('preLoader').classList.add('loaded');
-        typeTextLoop();
-        AOS.init();
-    }, 2000)
-};
 
+
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+function scrollAnimateBeat() {
+  const elements = document.querySelectorAll('.scroll-beat');
+  elements.forEach(el => {
+    if (isElementInViewport(el)) {
+      el.classList.add('animate__animated', 'animate__heartBeat');
+    }
+  });
+}
+
+function scrollAnimateFill() {
+  const elements = document.querySelectorAll('.scroll-fill');
+  elements.forEach(el => {
+    if (isElementInViewport(el)) {
+      el.classList.add('filled');
+    }
+  });
+}
+
+
+window.addEventListener('scroll', scrollAnimateBeat);
+window.addEventListener('scroll', scrollAnimateFill);
+
+
+window.onload = function() {
+  setTimeout(function(){
+      document.getElementById('preLoader').classList.add('loaded');
+      typeTextLoop();
+      AOS.init();
+      scrollAnimateBeat();
+      scrollAnimateFill();
+  }, 2000)
+};

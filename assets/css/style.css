@@ -734,6 +734,10 @@ video {
   width: 100vw;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1152,12 +1156,28 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-150 {
+  transition-delay: 150ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.duration-\[2000ms\] {
+  transition-duration: 2000ms;
+}
+
+.duration-\[2500ms\] {
+  transition-duration: 2500ms;
 }
 
 .ease-in-out {
@@ -1281,6 +1301,10 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.\[\&\.filled\]\:w-\[75\%\].filled {
+  width: 75%;
 }
 
 .\[\&\.loaded\]\:hidden.loaded {
