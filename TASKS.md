@@ -1,13 +1,14 @@
 # PENDING
 - Make fontawsome local
 - Update content
-- Design & active navigation menu
 - Add animated arrow down on cover
 - Set color of text selection
 - Fix links
 - Review & fix gaps
+- Add animations on menu
 
 # COMPLETED
+- Design & active navigation menu
 - Make homepage responsive
 - Add other animations on homepage
 - Add scroll animation
