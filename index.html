@@ -19,11 +19,11 @@
 
     <!-- NAVBAR -->
     <div id="navbar" class="fixed w-full top-0 left-0 bg-transparent z-[499] border-b border-acecnt border-opacity-0 [&.scrolled]:border-opacity-10 [&.scrolled]:bg-white transition-all duration-700">
-        <div class="container mx-auto px-3 max-w-screen-xl flex justify-between items-center h-16">
+        <div class="container mx-auto px-3 2xl:max-w-screen-xl flex justify-between items-center h-16">
             <a href=""><img src="/assets/images/logo.png" class="h-6" alt=""></a>
 
             <div class="flex items-center gap-5">
-                <div class="flex items-center gap-3">
+                <div class="hidden sm:flex items-center gap-3">
                     <i class="fa-solid fa-envelope"></i>
                     <span class="font-semibold">kunalkhan370@gmail.com</span>
                 </div>
@@ -38,14 +38,14 @@
 
     <!-- COVER -->
     <div class="bg-primary">
-        <div class="h-screen grid grid-cols-2 gap-6 container px-3 max-w-screen-xl mx-auto">
+        <div class="h-fit lg:h-screen lg:min-h-[720px] grid lg:grid-cols-2 gap-6 container px-3 2xl:max-w-screen-xl mx-auto max-lg:py-28">
 
             <!-- LEFT GRID -->
-            <div class="flex justify-center flex-col gap-6">
-                <h2 class="uppercase font-light text-5xl">Hi, I'M A PROFESSIONAL</h2>
-                <h1 class="uppercase font-semibold text-8xl"><span id="aniText" class="h-24">FULLSTACK</span><span id="cursor" class="inline-block ml-2 blink">|</span> <span class="block">DEVELOPER</span></h1>
+            <div class="flex justify-center flex-col gap-6 max-lg:order-2 max-lg:text-center">
+                <h2 class="uppercase font-light text-4xl md:text-5xl">Hi, I'M A PROFESSIONAL</h2>
+                <h1 class="uppercase font-semibold text-6xl sm:text-7xl xl:text-8xl"><span id="aniText" class="h-24">FULLSTACK</span><span id="cursor" class="inline-block ml-2 blink">|</span> <span class="block">DEVELOPER</span></h1>
                 <h2 class="text-xl">looking forward to work with your organization.</h2>
-                <div class="flex items-center">
+                <div class="flex max-sm:flex-col items-center justify-center lg:justify-start">
                     <button class="font-medium bg-acecnt border-2 border-acecnt px-10 py-3 text-white shadow-xl">VIEW MY WORKS</button>
                     <button class="flex items-center gap-2 px-10 py-3 font-medium [&>span]:hover:underline">
                         <span>Contact Me</span>
@@ -56,10 +56,10 @@
             <!-- LEFT GRID -->
 
             <!-- RIGHT GRID -->
-            <div class="flex justify-end items-center">
-                <div class="relative w-fit" data-aos="zoom-in" data-aos-duration="750" data-aos-easing="ease-in-out">
-                    <img src="/assets/images/face.png" class="w-[455px] h-[455px] rounded-full border-[16px] border-acecnt grayscale saturate-200 shadow-xl block" alt="">   
-                    <div class="absolute top-0 left-0 w-[455px] h-[455px] rounded-full bg-acecnt/5"></div>   
+            <div class="flex justify-center lg:justify-end items-center max-lg:order-1">
+                <div class="relative w-fit flex-shrink-0" data-aos="zoom-in" data-aos-duration="750" data-aos-easing="ease-in-out">
+                    <img src="/assets/images/face.png" class="w-full h-fit max-xl:max-w-[419px] max-xl:max-h-[419px] xl:size-[455px] rounded-full border-[16px] border-acecnt grayscale saturate-200 shadow-xl block" alt="">   
+                    <div class="absolute top-0 left-0 w-full h-fit max-xl:max-w-[419px] max-xl:max-h-[419px] xl:size-[455px] rounded-full bg-acecnt/5"></div>   
                 </div>          
             </div>
             <!-- RIGHT GRID -->
@@ -67,10 +67,10 @@
         </div>
     </div>
     <!-- COVER -->
-
+    
     <!-- ABOUT ME -->
     <section class="py-28 bg-white">
-        <div class="container px-3 max-w-screen-xl mx-auto flex flex-col gap-14">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto flex flex-col gap-14">
             <!-- SECTION HEADER -->
             <div class="text-center flex flex-col gap-3 items-center">
                 <span class="bg-primary px-3 w-fit" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">About Me</span>
@@ -79,7 +79,7 @@
             <!-- SECTION HEADER -->
 
             <!-- SECTION CONTENT -->
-            <div class="flex gap-6">
+            <div class="flex max-lg:flex-col max-lg:items-center gap-12">
 
                 <!-- LEFT SIDE -->
                 <div class="flex flex-col gap-4 flex-shrink">
@@ -89,9 +89,9 @@
                 <!-- LEFT SIDE -->
 
                 <!-- RIGHT SIDE -->
-                <div class="flex flex-col gap-5 text-center justify-center flex-shrink-0">
-                    <div class="px-36 relative scroll-beat" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <span class="block absolute w-28 h-28 left-[164px] top-0 bg-primary rounded-full"></span> 
+                <div class="flex flex-col gap-6 text-center items-center justify-center max-md:flex-shrink-0 max-lg:w-fit lg:min-w-[20rem]">
+                    <div class="relative scroll-beat w-fit" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <span class="block absolute w-28 h-28 left-4 top-0 bg-primary rounded-full"></span> 
                         <span class="text-9xl relative">3+</span>                                            
                     </div>
                     <p class="font-medium text-[28px]" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">Years of <span class="font-bold">Experience</span></p>
@@ -102,22 +102,22 @@
 
 
             <!-- SECTION FOOTER -->
-             <div class="grid grid-cols-4">
+             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-4">
                 <div data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <p class="font-medium text-gray-500">Name:</p>
-                    <h3 class="font-semibold text-lg">Kunal Ali Khan</h3>
+                    <h3 class="font-semibold">Kunal Ali Khan</h3>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100">
                     <p class="font-medium text-gray-500">Email:</p>
-                    <h3 class="font-semibold text-lg">kunalkhan370@gmail.com</h3>
+                    <h3 class="font-semibold text-wrap">kunalkhan370@gmail.com</h3>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="200">
                     <p class="font-medium text-gray-500">Designation:</p>
-                    <h3 class="font-semibold text-lg">Fullstack Developer</h3>
+                    <h3 class="font-semibold">Fullstack Developer</h3>
                 </div>
                 <div data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                     <p class="font-medium text-gray-500">Location:</p>
-                    <h3 class="font-semibold text-lg">West Bengal, India</h3>
+                    <h3 class="font-semibold">West Bengal, India</h3>
                 </div>
              </div>
             <!-- SECTION FOOTER -->
@@ -127,7 +127,7 @@
 
     <!-- SERVICES -->
     <div class="bg-gray-50 py-24">
-        <div class="container px-3 max-w-screen-xl mx-auto flex flex-col gap-28">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto flex flex-col gap-28">
             <!-- SECTION HEADER -->
             <div class="text-center flex flex-col gap-3 items-center">
                 <span class="bg-primary px-3 w-fit" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">What I Do?</span>
@@ -136,7 +136,7 @@
             <!-- SECTION HEADER -->
 
             <!-- SECTION CONTENT -->
-             <div class="grid grid-cols-3 gap-14">
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
 
                 <!-- SERVICE ITEM -->
                 <div class="flex flex-col gap-4 items-center text-center" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -194,9 +194,10 @@
     </div>
     <!-- SERVICES -->
 
+    
     <!-- RESUME -->
     <section class="py-28 bg-white">
-        <div class="container px-3 max-w-screen-xl mx-auto flex flex-col gap-14">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto flex flex-col gap-14">
             <!-- SECTION HEADER -->
             <div class="text-center flex flex-col gap-3 items-center">
                 <span class="bg-primary px-3 w-fit" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">Resume</span>
@@ -205,7 +206,7 @@
             <!-- SECTION HEADER -->
             
             <!-- SECTION CONTENT -->
-            <div class="grid grid-cols-2 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
                 <!-- LEFT SIDE -->
                 <div>
@@ -320,10 +321,9 @@
     <!-- RESUME -->
 
 
-
     <!-- PORTFOLIO -->
     <section class="py-28 bg-gray-50">
-        <div class="container px-3 max-w-screen-xl mx-auto flex flex-col gap-14">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto flex flex-col gap-14">
 
             <!-- SECTION HEADER -->
             <div class="text-center flex flex-col gap-3 items-center">
@@ -334,7 +334,7 @@
 
 
             <!-- SECTION CONTENT -->
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- PROJECT ITEM -->
                 <div class="flex flex-col gap-2" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -384,11 +384,11 @@
     </section>
     <!-- PORTFOLIO -->
 
-
+    
     <!-- CTA -->
     <section class="bg-fixed bg-cover bg-center bg-no-repeat" style="background-image: url('/assets/images/cta-bg.jpg');">
         <div class="bg-black/80 py-28">
-            <div class="container px-3 max-w-screen-xl mx-auto flex flex-col items-center gap-14">
+            <div class="container px-3 2xl:max-w-screen-xl mx-auto flex flex-col items-center gap-14">
                 <h2 class="text-white font-semibold text-4xl text-center" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">Interested in working with me?</h2>
                 <button class="font-medium bg-primary border-2 border-primary  px-10 py-3 shadow-xl w-fit" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">Hire Me</button>
             </div>
@@ -396,10 +396,10 @@
     </section>
     <!-- CTA -->
 
-
+    
     <!-- CONTACT ME -->
     <section class="bg-primary py-24">
-        <div class="container px-3 max-w-screen-xl mx-auto grid grid-cols-2 gap-16">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
 
             <!-- LEFT SIDE -->
             <div>
@@ -461,13 +461,12 @@
     </section>
     <!-- CONTACT ME -->
 
-
     <footer class="bg-acecnt text-white py-20">
-        <div class="container px-3 max-w-screen-xl mx-auto flex items-center justify-between">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto flex items-center justify-between">
             <p>Copyright © 2024 <a href="" class="text-primary underline">Kunal.</a> All Rights Reserved.</p>
         </div>
     </footer>
-
+    
     <script src="/assets/js/aos.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
