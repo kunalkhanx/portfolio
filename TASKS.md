@@ -4,7 +4,6 @@
 - Fix links
 - Review & fix gaps
 - Add animations on menu
-- Design logo
 - Enable contact up form
 - Make project details page
 - Enable download CV link
@@ -14,6 +13,7 @@
 - Create smoothscroll from menu
 
 # COMPLETED
+- Design logo
 - Set color of text selection
 - Make fontawsome local
 - Design & active navigation menu
