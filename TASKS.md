@@ -1,13 +1,21 @@
 # PENDING
-- Make fontawsome local
 - Update content
 - Add animated arrow down on cover
-- Set color of text selection
 - Fix links
 - Review & fix gaps
 - Add animations on menu
+- Design logo
+- Enable contact up form
+- Make project details page
+- Enable download CV link
+- Make details experience page
+- Make all skills page
+- Enable the Hire Me button
+- Create smoothscroll from menu
 
 # COMPLETED
+- Set color of text selection
+- Make fontawsome local
 - Design & active navigation menu
 - Make homepage responsive
 - Add other animations on homepage
