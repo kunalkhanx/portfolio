@@ -25,7 +25,10 @@ const textArray = [
   const aniTextElement = document.getElementById('aniText');
   const cursorElement = document.getElementById('cursor');
 
-  aniTextElement.textContent = '';
+  if(aniTextElement){
+    aniTextElement.textContent = '';
+  }
+  
   
   function typeTextLoop() {
     const currentText = textArray[textIndex];
@@ -98,7 +101,9 @@ window.addEventListener('scroll', scrollAnimateFill);
 window.onload = function() {
   setTimeout(function(){
       document.getElementById('preLoader').classList.add('loaded');
-      typeTextLoop();
+      if(aniTextElement){
+        typeTextLoop();
+      }      
       AOS.init();
       scrollAnimateBeat();
       scrollAnimateFill();

@@ -4,8 +4,8 @@
 - Fix links
 - Review & fix gaps
 - Add animations on menu
-- Enable contact up form
-- Make project details page
+- Enable contact us form
+- Create website-forms-manager project details page
 - Enable download CV link
 - Make details experience page
 - Make all skills page
@@ -13,6 +13,7 @@
 - Create smoothscroll from menu
 
 # COMPLETED
+- Make react-vault project details page
 - Design logo
 - Set color of text selection
 - Make fontawsome local
