@@ -8,11 +8,13 @@
 - Create website-forms-manager project details page
 - Enable download CV link
 - Make details experience page
-- Make all skills page
 - Enable the Hire Me button
 - Create smoothscroll from menu
+- Make react-vault project details page responsive
+- Make skills page responsive
 
 # COMPLETED
+- Make all skills page
 - Make react-vault project details page
 - Design logo
 - Set color of text selection
