@@ -118,3 +118,24 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
 document.getElementById('menu-close').addEventListener('click', function() {
   document.getElementById('menu').classList.add('hidden');
 });
+
+
+
+
+const smoothLinks = document.querySelectorAll('.s-link');
+
+smoothLinks.forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.getElementById('menu').classList.add('hidden');
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+
+    // Scroll smoothly to the target element
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest'
+    });
+  });
+});

@@ -1,5 +1,6 @@
 # PENDING
-- Update content
+- Update home page content
+- Update skills page content
 - Add animated arrow down on cover
 - Fix links
 - Review & fix gaps
@@ -9,11 +10,15 @@
 - Enable download CV link
 - Make details experience page
 - Enable the Hire Me button
-- Create smoothscroll from menu
 - Make react-vault project details page responsive
 - Make skills page responsive
+- Add screenshorts to react-vault project
+- Add instrucstion strip on skills page
+- Create contact me page
+- Move other page to modal in single page
 
 # COMPLETED
+- Create smoothscroll from menu
 - Make all skills page
 - Make react-vault project details page
 - Design logo
