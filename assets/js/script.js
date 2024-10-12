@@ -113,10 +113,12 @@ window.onload = function() {
 
 document.getElementById('menu-trigger').addEventListener('click', function() {
   document.getElementById('menu').classList.remove('hidden');
+  document.body.classList.add('overflow-hidden')
 });
 
 document.getElementById('menu-close').addEventListener('click', function() {
   document.getElementById('menu').classList.add('hidden');
+  document.body.classList.remove('overflow-hidden')
 });
 
 
@@ -139,3 +141,39 @@ smoothLinks.forEach(link => {
     });
   });
 });
+
+
+
+
+const modalTrigger = document.querySelectorAll('.modal-trigger');
+const modalClose = document.querySelectorAll('.modal-close')
+
+modalTrigger.forEach(trigger => {
+  trigger.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = this.getAttribute('data-target')
+    const modal = document.querySelector(target)
+    if(modal){
+      modal.classList.add('active');
+      setTimeout(() => {
+        modal.classList.add('active-animation');
+        document.body.classList.add('overflow-hidden')
+      }, 10);
+    }
+  })
+})
+
+modalClose.forEach(trigger => {
+  trigger.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = this.getAttribute('data-target')
+    const modal = document.querySelector(target)
+    if(modal){
+      modal.classList.remove('active-animation');
+      setTimeout(() => {
+        modal.classList.remove('active');
+        document.body.classList.remove('overflow-hidden')
+      }, 700);
+    }
+  })
+})

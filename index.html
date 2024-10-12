@@ -266,7 +266,7 @@
                 <div class="flex flex-col">
                     <div class="mb-4 flex justify-between items-center" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <h3 class="text-[28px] font-semibold">My Skills</h3>
-                        <a href="/skills.html" class="font-medium text-sm bg-primary border-2 border-primary px-8 py-2 w-fit">View all</a>
+                        <button data-target="#skills-modal" class="modal-trigger font-medium text-sm bg-primary border-2 border-primary px-8 py-2 w-fit">View all</button>
                     </div>
                     <div class="px-3 border-l-2 border-primary flex flex-col gap-6 flex-1 h-full" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
 
@@ -388,7 +388,7 @@
                         <span class="bg-blue-500 text-white inline-block text-sm px-3">React Js</span>
                     </p>
                     <p class="text-gray-500 leading-7 line-clamp-2">Securly save passwords, credid cards, texts etc as your local browser data.</p>
-                    <a href="/projects/react-vault.html" class="font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Details</a>
+                    <button data-target="#rv-modal" class="modal-trigger font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Details</button>
                 </div>
                 <!-- PROJECT ITEM -->
 
@@ -491,11 +491,198 @@
     </section>
     <!-- CONTACT ME -->
 
+    <!-- FOOTER -->
     <footer class="bg-acecnt text-white py-20">
         <div class="container px-3 2xl:max-w-screen-xl mx-auto flex items-center justify-between">
             <p>Copyright © 2024 <a href="" class="text-primary underline">Kunal.</a> All Rights Reserved.</p>
         </div>
     </footer>
+    <!-- FOOTER -->
+
+    <!-- REACT-VAULT MODAL -->
+    <div class="modal fixed w-screen h-screen bg-white left-0 top-0 z-[500] overflow-y-auto hidden [&.active]:block opacity-0 [&.active-animation]:opacity-100 transition-opacity duration-700" id="rv-modal">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto relative">
+            <button class="text-2xl absolute top-4 right-6 modal-close" data-target="#rv-modal">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <div class="py-32 flex flex-col gap-16">
+                <!-- CONTENT HEADER -->
+                <div class="flex justify-between items-center">
+                    <h1 class="text-4xl flex items-center gap-4 font-semibold"><i class="fa-solid fa-diagram-project"></i> React Vault</h1>
+                    <div class="flex items-center gap-2">
+                        <a href="" class="font-medium bg-white border-2 border-acecnt  px-4 py-1 text-acecnt shadow-xl w-fit">Demo</a>
+                        <a href="https://github.com/kunalkhanx/react-vault" target="_blank" class="font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Github</a>
+                    </div>
+                </div>
+                <!-- CONTENT HEADER -->
+
+
+                <!-- CONTENT -->
+                <div class="flex flex-col gap-4 [&>p]:leading-7">
+                    <div class="mb-4">
+                        <img src="https://github.com/kunalkhanx/react-vault/raw/main/public/logo.png" alt="">
+                    </div>
+                    <p>React Vault is a secure web application built with React that allows users to store sensitive information such as passwords, credit card details, and notes. All data is encrypted using the AES (Advanced Encryption Standard) algorithm to ensure maximum security and privacy.</p>
+
+                    <h2 class="font-semibold text-3xl">Features</h2>
+
+                    <ul class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500">
+                        <li><i class="fa-solid fa-check"></i> <span><strong>Secure Data Storage:</strong> Save passwords, credit cards, and personal notes securely within your browser.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>AES Encryption:</strong> All data is encrypted with AES, ensuring that sensitive information remains protected even when stored locally.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>Local Storage:</strong> Data is saved in your browser's localStorage, so nothing is sent to external servers, ensuring complete control and privacy over your information.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>Offline Availability:</strong> Since no data is transferred over the internet, the app can be used offline.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <strong>Backup & Restore:</strong> Easily back up your encrypted data and restore it when needed.</li>
+                    </ul>
+
+                    <h2 class="font-semibold text-3xl">Technologies Used</h2>
+
+                    <ul class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500">
+                        <li><i class="fa-solid fa-check"></i><span><strong>React:</strong> Frontend framework for building the user interface.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><strong>AES Encryption:</strong> For encrypting user data before saving it to localStorage.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><strong>JavaScript:</strong> Core language for implementing functionality.</span></li>
+                    </ul>
+
+                    <h3 class="text-2xl font-medium">Frameworks & Libraries</h3>
+
+                    <ul class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500 [&>li>span>a]:underline">
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/crypto-js" target="_blank">crypto-js</a> - Used for AES encryption of user data.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/uuid" target="_blank">uuid</a> - For generating unique IDs for each saved item (passwords, credit cards, notes).</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/zod" target="_blank">zod</a> - For schema validation of the data to ensure integrity and correctness.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/tailwindcss" target="_blank">tailwindcss</a> - Utility-first CSS framework for styling the user interface.</span></li>
+                    </ul>
+
+                    <h3 class="font-semibold text-3xl">How It Works</h3>
+                    
+                    <ul class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500">
+                        <li><i class="fa-solid fa-check"></i> <span>Users can input and save passwords, credit card details, and notes.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>The data is encrypted using the AES algorithm before being stored in the browser's localStorage.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>Since the data is stored locally, no information is sent to any server, making the app completely secure and private.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>The app offers backup and restore functionality for encrypted data, ensuring users can keep a copy of their data safely.</span></li>
+                    </ul>
+
+                </div>
+                <!-- CONTENT -->
+
+            </div>
+        </div>
+    </div>
+    <!-- REACT-VAULT MODAL -->
+
+
+
+    <!-- SKILLS MODAL -->
+    <div class="modal fixed w-screen h-screen bg-white left-0 top-0 z-[500] overflow-y-auto hidden [&.active]:block opacity-0 [&.active-animation]:opacity-100 transition-opacity duration-700" id="skills-modal">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto relative">
+            <button class="text-2xl absolute top-4 right-6 modal-close" data-target="#skills-modal">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <div class="py-32 flex flex-col gap-16">
+                <!-- CONTENT HEADER -->
+                <div class="">
+                    <h1 class="text-4xl flex items-center gap-4 font-semibold">My Skills</h1>
+                </div>
+                <!-- CONTENT HEADER -->
+
+
+                <!-- SKILLS CONTENT -->
+                <section class="grid grid-cols-2 gap-12">
+
+                    <!-- LEFT -->
+                    <div>
+                        <h2 class="text-3xl font-semibold mb-12">Backend</h2>
+                        <ul class="flex flex-col gap-8">
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> Laravel</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> Core PHP</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> Codeignitor</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> NodeJS & ExpressJS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> MongoDB</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> MySQL</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> REST API</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-pink-500"></span> AWS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> Hosting & Deployment</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-pink-500"></span> NextJS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- LEFT -->
+
+                    <!-- RIGHT -->
+                    <div>
+                        <h2 class="text-3xl font-semibold mb-12">Frontend</h2>
+                        <ul class="flex flex-col gap-8">
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> ReactJS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> TailwindCSS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> VueJS</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> Jquery</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> React Native</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- RIGHT -->
+
+                    <!-- THIRD -->
+                    <div>
+                        <h2 class="text-3xl font-semibold mb-12">Other Tools</h2>
+                        <ul class="flex flex-col gap-8">
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-green-500"></span> GIT & Github</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                            <li>
+                                <h3 class="mb-2 text-xl font-medium flex items-center gap-2"> <span class="w-4 h-4 block rounded-full bg-amber-500"></span> Linux</h3>
+                                <p class="pl-6 text-sm text-gray-500 leading-6">2+ Years of experience in Laravel with strong foundation including Middlewares, Complex Model Relationships, Frontend Intregation, API Endpoints etc.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- THIRD -->
+                </section>
+                <!-- SKILLS CONTENT -->
+        </div>
+    </div>
+    <!-- SKILLS MODAL -->
     
     <script src="/assets/js/aos.js"></script>
     <script src="/assets/js/script.js"></script>

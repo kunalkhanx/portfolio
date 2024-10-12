@@ -857,6 +857,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
 .text-wrap {
   text-wrap: wrap;
 }
@@ -1049,6 +1053,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1199,6 +1208,10 @@ video {
   text-decoration-line: underline;
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -1226,6 +1239,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .delay-150 {
   transition-delay: 150ms;
 }
@@ -1240,6 +1259,10 @@ video {
 
 .duration-\[2500ms\] {
   transition-duration: 2500ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 .ease-in-out {
@@ -1540,6 +1563,22 @@ body {
   .\32xl\:max-w-screen-xl {
     max-width: 1280px;
   }
+}
+
+.\[\&\.active-animation\]\:opacity-100.active-animation {
+  opacity: 1;
+}
+
+.\[\&\.active\]\:block.active {
+  display: block;
+}
+
+.\[\&\.active\]\:hidden.active {
+  display: none;
+}
+
+.\[\&\.active\]\:opacity-100.active {
+  opacity: 1;
 }
 
 .\[\&\.filled\]\:w-\[75\%\].filled {

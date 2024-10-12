@@ -14,10 +14,10 @@
 - Make skills page responsive
 - Add screenshorts to react-vault project
 - Add instrucstion strip on skills page
-- Create contact me page
-- Move other page to modal in single page
+- Organize script.js file
 
 # COMPLETED
+- Move other page to modal in single page
 - Create smoothscroll from menu
 - Make all skills page
 - Make react-vault project details page
