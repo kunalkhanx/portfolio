@@ -1,5 +1,4 @@
 # PENDING
-- Update home page content
 - Update skills page content
 - Add animated arrow down on cover
 - Fix links
@@ -12,10 +11,14 @@
 - Enable the Hire Me button
 - Make react-vault project details page responsive
 - Make skills page responsive
-- Add screenshorts to react-vault project
+- Add screenshorts to react-vault project page
+- Add screenshorts for projet thaumbnails
+- Add habit tracker project page
+- Add website form manager page
 - Organize script.js file
 
 # COMPLETED
+- Update home page content
 - Add instrucstion strip on skills page
 - Move other page to modal in single page
 - Create smoothscroll from menu
