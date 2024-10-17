@@ -12,10 +12,10 @@
 - Make react-vault project details page responsive
 - Make skills page responsive
 - Add screenshorts to react-vault project page
-- Add habit tracker project page
 - Organize script.js file
 
 # COMPLETED
+- Add habit tracker project page
 - Add website form manager page
 - Add screenshorts for projet thaumbnails
 - Update home page content

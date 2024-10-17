@@ -515,8 +515,8 @@
                         can sign up, sign in, create habits, and record their progress. This project is built with
                         Node.js, Express, and MongoDB (Mongoose), and is designed to provide a backend service for habit
                         tracking applications.</p>
-                    <a href=""
-                        class="font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Details</a>
+                        <button data-target="#ht-modal"
+                        class="modal-trigger font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Details</button>
                 </div>
                 <!-- PROJECT ITEM -->
 
@@ -799,6 +799,95 @@
         </div>
     </div>
     <!-- WFM MODAL -->
+
+
+    <!-- HABIT TRACKER MODAL -->
+    <div class="modal fixed w-screen h-screen bg-white left-0 top-0 z-[500] overflow-y-auto hidden [&.active]:block opacity-0 [&.active-animation]:opacity-100 transition-opacity duration-700"
+        id="ht-modal">
+        <div class="container px-3 2xl:max-w-screen-xl mx-auto relative">
+            <button class="text-2xl absolute top-4 right-6 modal-close" data-target="#ht-modal">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <div class="py-32 flex flex-col gap-16">
+                <!-- CONTENT HEADER -->
+                <div class="flex justify-between items-center">
+                    <h1 class="text-4xl flex items-center gap-4 font-semibold"><i
+                            class="fa-solid fa-diagram-project"></i> Habit Tracker API</h1>
+                    <div class="flex items-center gap-2">
+                        <a href=""
+                            class="font-medium bg-white border-2 border-acecnt  px-4 py-1 text-acecnt shadow-xl w-fit">Demo</a>
+                        <a href="https://github.com/kunalkhanx/habit-tracker-api" target="_blank"
+                            class="font-medium bg-acecnt border-2 border-acecnt  px-4 py-1 text-white shadow-xl w-fit">Github</a>
+                    </div>
+                </div>
+                <!-- CONTENT HEADER -->
+
+
+                <!-- CONTENT -->
+                <div class="flex flex-col gap-4 [&>p]:leading-7">
+                    <p>A RESTful API for tracking daily habits, where users can sign up, sign in, create habits, and record their progress. This project is built with Node.js, Express, and MongoDB (Mongoose), and is designed to provide a backend service for habit tracking applications.</p>
+
+                    <h2 class="font-semibold text-3xl">Features</h2>
+
+                    <ul
+                        class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500">
+                        <li><i class="fa-solid fa-check"></i> <span><strong>User Authentication:</strong> Users can sign up and log in to access their habits.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>Create Habits:</strong> Users can create and manage their habits.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>Track Daily Records:</strong> Each habit can have daily progress updates.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span><strong>CRUD Operations:</strong> Full functionality for creating, reading, updating, and deleting habits and records.</span></li>
+                    </ul>
+
+                    <h2 class="font-semibold text-3xl">Technologies</h2>
+
+                    <ul
+                        class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500 [&>li>span>a]:underline">
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://nodejs.org/"
+                                    target="_blank">Node.js</a> - JavaScript runtime environment for executing server-side code.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://expressjs.com/"
+                                    target="_blank">Express.js</a> - Fast, minimalist web framework for Node.js, used to create API routes and handle HTTP requests.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.mongodb.com/"
+                                    target="_blank">MongoDB</a> - A NoSQL database, used for storing user accounts, habits, and records.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/mongoose"
+                                    target="_blank">Mongoose</a> - An Object Data Modeling (ODM) library for MongoDB, providing schema validation and a flexible interface for querying MongoDB.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/jsonwebtoken"
+                                    target="_blank">JWT (JSON Web Token)</a> - Used for securely transmitting information between the client and server for authentication.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/bcryptjs"
+                                    target="_blank">bcryptjs</a> - A password hashing library used to securely store user passwords.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/dotenv"
+                                    target="_blank">dotenv</a> - Environment variable management, used for configuring secrets and database URIs.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/body-parser"
+                                    target="_blank">body-parser</a> - Middleware to parse incoming request bodies in a middleware, supporting json and urlencoded formats.</span></li>
+                         <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/case"
+                                    target="_blank">case</a> - A utility for converting strings between different cases (e.g., camelCase, snake_case).</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/cors"
+                                    target="_blank">cors</a> - Middleware to enable Cross-Origin Resource Sharing (CORS) in Express.js applications.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/joi"
+                                    target="_blank">Joi</a> - Schema description language and data validator for JavaScript.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/moment"
+                                    target="_blank">moment</a> - A library for parsing, validating, manipulating, and formatting dates.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/validator"
+                                    target="_blank">validator</a> - A library of string validators and sanitizers.</span></li>
+                        <li><i class="fa-solid fa-check"></i><span><a href="https://www.npmjs.com/package/nodemon"
+                                    target="_blank">Nodemon</a> - A development tool that automatically restarts the Node.js server when file changes are detected.</span></li>
+                    </ul>
+
+                    <h3 class="font-semibold text-3xl">Usage</h3>
+
+                    <ul
+                        class="pl-4 [&>li]:flex [&>li]:gap-2 flex flex-col gap-2 [&>li>i]:mt-1.5 [&>li>i]:text-green-500">
+                        <li><i class="fa-solid fa-check"></i> <span>Use tools like Postman or curl to interact with the API.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>Sign up with a POST request to /api/register to create an account.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>Log in with a POST request to /api/login to retrieve a token for authentication.</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span>Include the token as Beader Token in the Authorization header for requests to create and manage habits.</span></li>
+                    </ul>
+
+                </div>
+                <!-- CONTENT -->
+
+            </div>
+        </div>
+    </div>
+    <!-- HABIT TRACKER MODAL -->
 
 
 
