@@ -13,10 +13,10 @@
 - Make skills page responsive
 - Add screenshorts to react-vault project page
 - Add habit tracker project page
-- Add website form manager page
 - Organize script.js file
 
 # COMPLETED
+- Add website form manager page
 - Add screenshorts for projet thaumbnails
 - Update home page content
 - Add instrucstion strip on skills page

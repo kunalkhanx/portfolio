@@ -967,9 +967,19 @@ video {
   background-color: rgb(245 223 78 / var(--tw-bg-opacity));
 }
 
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-rose-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 63 94 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -979,16 +989,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-purple-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
-}
-
-.bg-rose-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 63 94 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -1571,20 +1571,20 @@ body {
   display: block;
 }
 
-.\[\&\.filled\]\:w-\[75\%\].filled {
-  width: 75%;
+.\[\&\.filled\]\:w-\[65\%\].filled {
+  width: 65%;
 }
 
-.\[\&\.filled\]\:w-\[90\%\].filled {
-  width: 90%;
+.\[\&\.filled\]\:w-\[75\%\].filled {
+  width: 75%;
 }
 
 .\[\&\.filled\]\:w-\[85\%\].filled {
   width: 85%;
 }
 
-.\[\&\.filled\]\:w-\[65\%\].filled {
-  width: 65%;
+.\[\&\.filled\]\:w-\[90\%\].filled {
+  width: 90%;
 }
 
 .\[\&\.loaded\]\:hidden.loaded {
