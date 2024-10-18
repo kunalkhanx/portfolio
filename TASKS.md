@@ -1,5 +1,4 @@
 # PENDING
-- Update skills page content
 - Add animated arrow down on cover
 - Fix links
 - Review & fix gaps
@@ -15,6 +14,7 @@
 - Organize script.js file
 
 # COMPLETED
+- Update skills page content
 - Add habit tracker project page
 - Add website form manager page
 - Add screenshorts for projet thaumbnails
