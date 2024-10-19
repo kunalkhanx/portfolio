@@ -3,17 +3,17 @@
 - Fix links
 - Review & fix gaps
 - Add animations on menu
-- Enable contact us form
-- Create website-forms-manager project details page
+- Create website-forms-manager project details page responsive
 - Enable download CV link
 - Make details experience page
 - Enable the Hire Me button
 - Make react-vault project details page responsive
 - Make skills page responsive
 - Add screenshorts to react-vault project page
-- Organize script.js file
 
 # COMPLETED
+- Enable contact us form
+- Organize script.js file
 - Update skills page content
 - Add habit tracker project page
 - Add website form manager page
