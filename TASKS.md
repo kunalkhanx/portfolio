@@ -1,17 +1,17 @@
 # PENDING
 - Add animated arrow down on cover
-- Fix links
 - Review & fix gaps
 - Add animations on menu
 - Create website-forms-manager project details page responsive
 - Enable download CV link
 - Make details experience page
-- Enable the Hire Me button
 - Make react-vault project details page responsive
 - Make skills page responsive
 - Add screenshorts to react-vault project page
 
 # COMPLETED
+- Fix links
+- Enable the Hire Me button
 - Enable contact us form
 - Organize script.js file
 - Update skills page content
