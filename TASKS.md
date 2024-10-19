@@ -2,14 +2,14 @@
 - Add animated arrow down on cover
 - Review & fix gaps
 - Add animations on menu
-- Create website-forms-manager project details page responsive
 - Enable download CV link
 - Make details experience page
-- Make react-vault project details page responsive
-- Make skills page responsive
 - Add screenshorts to react-vault project page
 
 # COMPLETED
+- Make react-vault project details page responsive
+- Create website-forms-manager project details page responsive
+- Make skills page responsive
 - Fix links
 - Enable the Hire Me button
 - Enable contact us form
